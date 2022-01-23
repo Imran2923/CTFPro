@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ctfpro',
-        'USER': 'dbadmin',
-        'PASSWORD': 'pass',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'HOST': '127.0.0.1',
         'PORT': '3306',     
     }
@@ -130,3 +130,4 @@ LOGIN_REDIRECT_URL = '/'
 
 # Extending user model
 AUTH_USER_MODEL = 'vms.User'
+
